@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F002B5112BFF4409009C57A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002B5102BFF4409009C57A2 /* AppDelegate.swift */; };
+		F002B5132BFF4409009C57A2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F002B5122BFF4409009C57A2 /* GameScene.sks */; };
+		F002B5152BFF4409009C57A2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F002B5142BFF4409009C57A2 /* Actions.sks */; };
+		F002B5172BFF4409009C57A2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002B5162BFF4409009C57A2 /* GameScene.swift */; };
+		F002B5192BFF4409009C57A2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002B5182BFF4409009C57A2 /* GameViewController.swift */; };
+		F002B51C2BFF4409009C57A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F002B51A2BFF4409009C57A2 /* Main.storyboard */; };
+		F002B51E2BFF440B009C57A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F002B51D2BFF440B009C57A2 /* Assets.xcassets */; };
+		F002B5212BFF440B009C57A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F002B51F2BFF440B009C57A2 /* LaunchScreen.storyboard */; };
+		F002B52B2BFF440B009C57A2 /* GeometryCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002B52A2BFF440B009C57A2 /* GeometryCloneTests.swift */; };
+		F002B5352BFF440B009C57A2 /* GeometryCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002B5342BFF440B009C57A2 /* GeometryCloneUITests.swift */; };
+		F002B5372BFF440B009C57A2 /* GeometryCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002B5362BFF440B009C57A2 /* GeometryCloneUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F002B5272BFF440B009C57A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F002B5052BFF4409009C57A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F002B50C2BFF4409009C57A2;
+			remoteInfo = GeometryClone;
+		};
+		F002B5312BFF440B009C57A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F002B5052BFF4409009C57A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F002B50C2BFF4409009C57A2;
+			remoteInfo = GeometryClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F002B50D2BFF4409009C57A2 /* GeometryClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F002B5102BFF4409009C57A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F002B5122BFF4409009C57A2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F002B5142BFF4409009C57A2 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		F002B5162BFF4409009C57A2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F002B5182BFF4409009C57A2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F002B51B2BFF4409009C57A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F002B51D2BFF440B009C57A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F002B5202BFF440B009C57A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F002B5262BFF440B009C57A2 /* GeometryCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometryCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F002B52A2BFF440B009C57A2 /* GeometryCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryCloneTests.swift; sourceTree = "<group>"; };
+		F002B5302BFF440B009C57A2 /* GeometryCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometryCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F002B5342BFF440B009C57A2 /* GeometryCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryCloneUITests.swift; sourceTree = "<group>"; };
+		F002B5362BFF440B009C57A2 /* GeometryCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F002B50A2BFF4409009C57A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F002B5232BFF440B009C57A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F002B52D2BFF440B009C57A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F002B5042BFF4409009C57A2 = {
+			isa = PBXGroup;
+			children = (
+				F002B50F2BFF4409009C57A2 /* GeometryClone */,
+				F002B5292BFF440B009C57A2 /* GeometryCloneTests */,
+				F002B5332BFF440B009C57A2 /* GeometryCloneUITests */,
+				F002B50E2BFF4409009C57A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F002B50E2BFF4409009C57A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F002B50D2BFF4409009C57A2 /* GeometryClone.app */,
+				F002B5262BFF440B009C57A2 /* GeometryCloneTests.xctest */,
+				F002B5302BFF440B009C57A2 /* GeometryCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F002B50F2BFF4409009C57A2 /* GeometryClone */ = {
+			isa = PBXGroup;
+			children = (
+				F002B5102BFF4409009C57A2 /* AppDelegate.swift */,
+				F002B5122BFF4409009C57A2 /* GameScene.sks */,
+				F002B5142BFF4409009C57A2 /* Actions.sks */,
+				F002B5162BFF4409009C57A2 /* GameScene.swift */,
+				F002B5182BFF4409009C57A2 /* GameViewController.swift */,
+				F002B51A2BFF4409009C57A2 /* Main.storyboard */,
+				F002B51D2BFF440B009C57A2 /* Assets.xcassets */,
+				F002B51F2BFF440B009C57A2 /* LaunchScreen.storyboard */,
+			);
+			path = GeometryClone;
+			sourceTree = "<group>";
+		};
+		F002B5292BFF440B009C57A2 /* GeometryCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				F002B52A2BFF440B009C57A2 /* GeometryCloneTests.swift */,
+			);
+			path = GeometryCloneTests;
+			sourceTree = "<group>";
+		};
+		F002B5332BFF440B009C57A2 /* GeometryCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F002B5342BFF440B009C57A2 /* GeometryCloneUITests.swift */,
+				F002B5362BFF440B009C57A2 /* GeometryCloneUITestsLaunchTests.swift */,
+			);
+			path = GeometryCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F002B50C2BFF4409009C57A2 /* GeometryClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F002B53A2BFF440B009C57A2 /* Build configuration list for PBXNativeTarget "GeometryClone" */;
+			buildPhases = (
+				F002B5092BFF4409009C57A2 /* Sources */,
+				F002B50A2BFF4409009C57A2 /* Frameworks */,
+				F002B50B2BFF4409009C57A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeometryClone;
+			productName = GeometryClone;
+			productReference = F002B50D2BFF4409009C57A2 /* GeometryClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F002B5252BFF440B009C57A2 /* GeometryCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F002B53D2BFF440B009C57A2 /* Build configuration list for PBXNativeTarget "GeometryCloneTests" */;
+			buildPhases = (
+				F002B5222BFF440B009C57A2 /* Sources */,
+				F002B5232BFF440B009C57A2 /* Frameworks */,
+				F002B5242BFF440B009C57A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F002B5282BFF440B009C57A2 /* PBXTargetDependency */,
+			);
+			name = GeometryCloneTests;
+			productName = GeometryCloneTests;
+			productReference = F002B5262BFF440B009C57A2 /* GeometryCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F002B52F2BFF440B009C57A2 /* GeometryCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F002B5402BFF440B009C57A2 /* Build configuration list for PBXNativeTarget "GeometryCloneUITests" */;
+			buildPhases = (
+				F002B52C2BFF440B009C57A2 /* Sources */,
+				F002B52D2BFF440B009C57A2 /* Frameworks */,
+				F002B52E2BFF440B009C57A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F002B5322BFF440B009C57A2 /* PBXTargetDependency */,
+			);
+			name = GeometryCloneUITests;
+			productName = GeometryCloneUITests;
+			productReference = F002B5302BFF440B009C57A2 /* GeometryCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F002B5052BFF4409009C57A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F002B50C2BFF4409009C57A2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F002B5252BFF440B009C57A2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F002B50C2BFF4409009C57A2;
+					};
+					F002B52F2BFF440B009C57A2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F002B50C2BFF4409009C57A2;
+					};
+				};
+			};
+			buildConfigurationList = F002B5082BFF4409009C57A2 /* Build configuration list for PBXProject "GeometryClone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F002B5042BFF4409009C57A2;
+			productRefGroup = F002B50E2BFF4409009C57A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F002B50C2BFF4409009C57A2 /* GeometryClone */,
+				F002B5252BFF440B009C57A2 /* GeometryCloneTests */,
+				F002B52F2BFF440B009C57A2 /* GeometryCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F002B50B2BFF4409009C57A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F002B51C2BFF4409009C57A2 /* Main.storyboard in Resources */,
+				F002B5132BFF4409009C57A2 /* GameScene.sks in Resources */,
+				F002B51E2BFF440B009C57A2 /* Assets.xcassets in Resources */,
+				F002B5212BFF440B009C57A2 /* LaunchScreen.storyboard in Resources */,
+				F002B5152BFF4409009C57A2 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F002B5242BFF440B009C57A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F002B52E2BFF440B009C57A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F002B5092BFF4409009C57A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F002B5172BFF4409009C57A2 /* GameScene.swift in Sources */,
+				F002B5192BFF4409009C57A2 /* GameViewController.swift in Sources */,
+				F002B5112BFF4409009C57A2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F002B5222BFF440B009C57A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F002B52B2BFF440B009C57A2 /* GeometryCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F002B52C2BFF440B009C57A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F002B5372BFF440B009C57A2 /* GeometryCloneUITestsLaunchTests.swift in Sources */,
+				F002B5352BFF440B009C57A2 /* GeometryCloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F002B5282BFF440B009C57A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F002B50C2BFF4409009C57A2 /* GeometryClone */;
+			targetProxy = F002B5272BFF440B009C57A2 /* PBXContainerItemProxy */;
+		};
+		F002B5322BFF440B009C57A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F002B50C2BFF4409009C57A2 /* GeometryClone */;
+			targetProxy = F002B5312BFF440B009C57A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F002B51A2BFF4409009C57A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F002B51B2BFF4409009C57A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F002B51F2BFF440B009C57A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F002B5202BFF440B009C57A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F002B5382BFF440B009C57A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F002B5392BFF440B009C57A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F002B53B2BFF440B009C57A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = geometry.GeometryClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F002B53C2BFF440B009C57A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = geometry.GeometryClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F002B53E2BFF440B009C57A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = geometry.GeometryCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeometryClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeometryClone";
+			};
+			name = Debug;
+		};
+		F002B53F2BFF440B009C57A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = geometry.GeometryCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeometryClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeometryClone";
+			};
+			name = Release;
+		};
+		F002B5412BFF440B009C57A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = geometry.GeometryCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeometryClone;
+			};
+			name = Debug;
+		};
+		F002B5422BFF440B009C57A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = geometry.GeometryCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeometryClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F002B5082BFF4409009C57A2 /* Build configuration list for PBXProject "GeometryClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F002B5382BFF440B009C57A2 /* Debug */,
+				F002B5392BFF440B009C57A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F002B53A2BFF440B009C57A2 /* Build configuration list for PBXNativeTarget "GeometryClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F002B53B2BFF440B009C57A2 /* Debug */,
+				F002B53C2BFF440B009C57A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F002B53D2BFF440B009C57A2 /* Build configuration list for PBXNativeTarget "GeometryCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F002B53E2BFF440B009C57A2 /* Debug */,
+				F002B53F2BFF440B009C57A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F002B5402BFF440B009C57A2 /* Build configuration list for PBXNativeTarget "GeometryCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F002B5412BFF440B009C57A2 /* Debug */,
+				F002B5422BFF440B009C57A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F002B5052BFF4409009C57A2 /* Project object */;
+}
